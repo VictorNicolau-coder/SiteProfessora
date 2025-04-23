@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+nav {
+    height: 6%;
+}
+
+nav .navbar-brand {
+    font-family: "Ephesis", cursive;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 25px;
+}
+
+.apresentacao{
+    background-image: linear-gradient(rgba(86, 86, 198, 0.8), rgba(86, 86, 198, 0.8)),
+                    url("https://img.freepik.com/premium-photo/white-snow-texture-background-high-angle-view_1045533-6484.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 94%;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao-conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+}
+
+.texto{
+    position: left;
+    color: pink;
+    width: 610px;
+}
+
+.apresentacao .texto h1{
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+@keyframes floatAndScale {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-20px) scale(1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }
+
+.book-icon{
+    position: right;
+
+    animation: floatAndScale 3s ease-in-out infinite;
+    display: inline-block;
+    margin-left: 40px;
+    
+    color: pink;
+    font-size: 90px;
+}

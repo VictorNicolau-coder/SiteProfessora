@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+html, body{
+    height: 100%;
+    margin: 0px;
+}
+
+nav{
+    height: 6%;
+}
+
+nav .navbar-brand {
+    font-family: "Ephesis", cursive;
+    font-weight: 500;
+    font-style: normal;
+
+    font-size: 25px;
+}
+
+.main{
+    width: 100%;
+    height: 94%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.atividades{
+    width: 80%;
+    height: 90%;
+
+    color: black;
+}
+
+.card{
+    
+}
